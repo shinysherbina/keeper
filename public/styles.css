@@ -1,0 +1,72 @@
+body {
+  box-sizing: border-box;
+  background-color: whitesmoke;
+  height: 70vh;
+}
+header h1 {
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+  padding: 5px 5px 20px 20px;
+  color: whitesmoke;
+}
+header {
+  background-color: #f5ba13;
+  box-sizing: border-box;
+  border-radius: 15px 15px 0% 0%;
+}
+.input-area {
+  display: flex;
+  flex-direction: column;
+  width: 40vh;
+  height: 100%;
+  justify-content: flex-end;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px slategray;
+}
+.input-area input {
+  border: none;
+  outline: none;
+  /* height: 20%; */
+  font-family: "McLaren", cursive;
+}
+.input-area textarea {
+  border: none;
+  outline: none;
+  font-family: "McLaren", cursive;
+  border-radius: 10%;
+}
+.add-input button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: whitesmoke;
+  background-color: #f5ba13;
+  border: none;
+  outline: none;
+  margin-left: 5px;
+  font-size: 1.5rem;
+}
+.add-input {
+  display: flex;
+  /* height: 20vh; */
+  align-items: flex-end;
+  justify-content: center;
+  /* align-content: flex-end; */
+}
+.note {
+  display: flex;
+  flex-direction: column;
+  width: 40vh;
+  height: 100%;
+  justify-content: flex-end;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px slategray;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+.notes-area {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-top: 40px;
+}
